@@ -1,56 +1,20 @@
 #nav-content {
+    background-color: rgba(0, 0, 0, 0.8);
+                   color: #fff;
     .navbar {
         margin-bottom: 0 !important;
         border-radius: 0;
         .navbar-header {
-                margin: 0px 15% 0 5%;
-    float: left;
-    img{
-        margin-top: 13px;
-    }
-        }
-    }
-    #followNayak {
-        float: right;
-        margin: 5px 20px 0 0;
-        h4 {
+            margin: 0px 15% 0 5%;
             float: left;
-            color: white;
+            .navbar-brand {
+ 
+                font-size: 2em;
+            }
         }
-        ul {
-            overflow: auto;
-        }
-        ul li {
-            margin-left: 5px;
-            list-style-type: none;
-            float: left;
-        }
-        ul li a i {
-            background: #205D7A;
-            color: #fff;
-            width: 35px;
-            height: 35px;
-            border-radius: 20px;
-            font-size: 20px;
-            text-align: center;
-            margin-right: 10px;
-            padding-top: 15%;
-            transition: all 0.2s ease-in-out;
-        }
-        .fa-github {
-            background: #b17371
-        }
-        .fa-linkedin {
-            background: #007bb6
-        }
-        .fa-twitter {
-            background: #00aced
-        }
-        .fa-google-plus {
-            background: #ca2a4c
-        }
-        ul li a i:hover {
-            opacity: .7;
+        .navMenu {
+            font-size: 1.5em;
+            letter-spacing: 0.05em;
         }
     }
 }
@@ -58,32 +22,20 @@
 @media only screen and (max-width: 384px) {
     /* Styles */
     #nav-content {
-.navbar{
-    padding-top: 20px;
-        .navbar-header {
-            float: none;
-            margin-left: 24%;
-        }
-        .navbar-nav {
-
-            margin-left: 10px;
-        }
-        ul li {
-            float: left;
-            width: 33%;
-            text-align: center;
-        }
-        #followNayak {
-            h4 {
-                display: none;
+        .navbar {
+            padding-top: 20px;
+            .navbar-header {
+                float: none;
+                margin-left: 24%;
             }
-            float: none !important;
-            margin: 30px;
+            .navbar-nav {
+                margin-left: 10px;
+            }
             ul li {
-                width: 20%;
+                float: left;
+                width: 33%;
+                text-align: center;
             }
         }
-    }
     }
 }
-

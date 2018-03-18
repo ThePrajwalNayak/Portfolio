@@ -1,24 +1,14 @@
 <!-- NAVIGATION -->
 <div id="nav-content">
   <nav class="navbar navbar-inverse" role="navigation" ng-controller="navController">
-    <div class="navbar-header" style="">
-      <a class="navbar-brand" ui-sref="home">Nayak News</a>
-      <img src="images/favIcon.png" width="20" height="20" />
+    <div class="navbar-header" >
+      <a class="navbar-brand" ui-sref="home">P N</a>
     </div>
     <ul class="nav navbar-nav">
-      <li clas="navMenu" ng-class="{ active: isCurrentPath('/film') }"><a ui-sref="film">FILM</a></li>
-      <li clas="navMenu" ng-class="{ active: isCurrentPath('/tech') }"><a ui-sref="tech">TECH</a></li>
-      <li clas="navMenu" ng-class="{ active: isCurrentPath('/sports') }"><a ui-sref="sports">SPORTS</a></li>
+      <li class="navMenu" ng-class="{ active: isCurrentPath('/myStack') }"><a ui-sref="myStack">My stack</a></li>
+      <li class="navMenu" ng-class="{ active: isCurrentPath('/myProject') }"><a ui-sref="myProject">My Project</a></li>
+     <!-- <li class="navMenu" ng-class="{ active: isCurrentPath('/sports') }"><a ui-sref="sports">My Resume</a></li>-->
     </ul>
+  </nav> 
 
-    <div id="followNayak">
-      <h4>Follow Nayak :</h4>
-      <ul>
-        <li><a href="https://github.com/theprajwalnayak/" target="_blank"><i class="fa fa-github"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/theprajwalnayak//" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="https://twitter.com/ThePrajwalNayak/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="http://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i> </a></li>
-      </ul>
-    </div>
-  </nav>
 </div>

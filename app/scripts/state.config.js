@@ -8,10 +8,10 @@ angular.module('TheNayakNews').config(['$stateProvider', '$urlRouterProvider',  
             url: "/",
             templateUrl: "views/home.html"
         })
-        .state('tech', {//State demonstrating Nested views
-            url: "/tech",
-            templateUrl: "views/tech.html",
-            controller: 'techController'
+        .state('myProject', {//State demonstrating Nested views
+            url: "/myProject",
+            templateUrl: "views/myProject.html",
+            controller: 'myProjectController'
         })
         .state('myStack', {//State demonstrating Nested views
             url: "/myStack",
