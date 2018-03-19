@@ -19,21 +19,25 @@
     }
 }
 
-@media only screen and (max-width: 384px) {
+@media only screen and (max-width: 420px) {
     /* Styles */
     #nav-content {
         .navbar {
             padding-top: 20px;
             .navbar-header {
                 float: none;
-                margin-left: 24%;
+                margin: auto;
+                .navbar-brand{
+                        margin-left: 50%;
+    transform: translateX(-50%);
+                }
             }
             .navbar-nav {
                 margin-left: 10px;
             }
             ul li {
                 float: left;
-                width: 33%;
+                width: 50%;
                 text-align: center;
             }
         }

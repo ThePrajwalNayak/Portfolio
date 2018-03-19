@@ -1,0 +1,125 @@
+/* line 1, ../../app/styles/home.scss */
+#home-content {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #FFF;
+  /* #home-hackerLink {
+          float: right;
+          margin-right: 15%;
+          li a{    
+          color: #fff;
+          transition: 400ms ease-in;
+          &:hover{
+              color: black;
+          }
+          }
+      }*/
+}
+/* line 17, ../../app/styles/home.scss */
+#home-content #home-hacker {
+  position: relative;
+  padding-top: 10%;
+  color: #FFF;
+}
+/* line 21, ../../app/styles/home.scss */
+#home-content #home-hacker img {
+  margin-left: 20%;
+  border-radius: 50%;
+  width: 20%;
+  height: auto;
+  transition: all .3s ease-in-out;
+}
+/* line 27, ../../app/styles/home.scss */
+#home-content #home-hacker img:hover {
+  transform: scale(1.2);
+}
+/* line 31, ../../app/styles/home.scss */
+#home-content #home-hacker #home-hackerInto {
+  position: absolute;
+  top: 55%;
+  left: 45%;
+}
+/* line 35, ../../app/styles/home.scss */
+#home-content #home-hacker #home-hackerInto h4 {
+  font-size: 2em;
+}
+/* line 38, ../../app/styles/home.scss */
+#home-content #home-hacker #home-hackerInto p {
+  letter-spacing: 0.1em;
+  font-size: 1.5em;
+}
+/* line 42, ../../app/styles/home.scss */
+#home-content #home-hacker #home-hackerInto ul {
+  padding-left: 0;
+  overflow: auto;
+}
+/* line 46, ../../app/styles/home.scss */
+#home-content #home-hacker #home-hackerInto ul li {
+  margin-left: 5px;
+  list-style-type: none;
+  float: left;
+}
+/* line 51, ../../app/styles/home.scss */
+#home-content #home-hacker #home-hackerInto ul li a i {
+  background: #205D7A;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 15%;
+  transition: all 0.2s ease-in-out;
+}
+/* line 63, ../../app/styles/home.scss */
+#home-content #home-hacker #home-hackerInto .fa-github {
+  background: #b17371;
+}
+/* line 66, ../../app/styles/home.scss */
+#home-content #home-hacker #home-hackerInto .fa-linkedin {
+  background: #007bb6;
+}
+/* line 69, ../../app/styles/home.scss */
+#home-content #home-hacker #home-hackerInto .fa-twitter {
+  background: #00aced;
+}
+/* line 72, ../../app/styles/home.scss */
+#home-content #home-hacker #home-hackerInto .fa-google-plus {
+  background: #ca2a4c;
+}
+/* line 75, ../../app/styles/home.scss */
+#home-content #home-hacker #home-hackerInto ul li a i:hover {
+  opacity: .7;
+}
+
+@media only screen and (max-width: 420px) {
+  /* Styles */
+  /* line 86, ../../app/styles/home.scss */
+  #home-content #home-hacker img {
+    display: block;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    width: 45%;
+  }
+  /* line 92, ../../app/styles/home.scss */
+  #home-content #home-hacker #home-hackerInto {
+    margin-top: 10%;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 0.7em;
+    padding: 0 10%;
+  }
+  /* line 93, ../../app/styles/home.scss */
+  #home-content #home-hacker #home-hackerInto h4 {
+    text-align: center;
+  }
+  /* line 102, ../../app/styles/home.scss */
+  #home-content #home-hacker #home-hackerInto ul li {
+    width: 23%;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */

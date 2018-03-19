@@ -1,0 +1,102 @@
+/* line 3, ../../app/styles/sports.scss */
+#sports-content #sportsArticle #sportsLeft {
+  position: absolute;
+  top: 80px;
+  bottom: 0;
+  left: 0;
+  overflow-y: scroll;
+}
+/* line 10, ../../app/styles/sports.scss */
+#sports-content #sportsArticle #sportsLeft .sportsLeftArticles {
+  margin: 10px 0 0 0;
+  padding: 10px;
+}
+/* line 13, ../../app/styles/sports.scss */
+#sports-content #sportsArticle #sportsLeft .sportsLeftArticles .sportsLeftArticlesImage {
+  width: 100%;
+  height: auto;
+}
+/* line 17, ../../app/styles/sports.scss */
+#sports-content #sportsArticle #sportsLeft .sportsLeftArticles .sportsLeftArticlesImage:hover {
+  cursor: pointer;
+}
+/* line 20, ../../app/styles/sports.scss */
+#sports-content #sportsArticle #sportsLeft .sportsLeftArticles .sportsLeftArticlesDescription {
+  margin-top: 10px;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+}
+/* line 24, ../../app/styles/sports.scss */
+#sports-content #sportsArticle #sportsLeft .sportsLeftArticles .sportsLeftArticlesDescription .continueReading {
+  margin-left: 10px;
+}
+/* line 31, ../../app/styles/sports.scss */
+#sports-content #sportsArticle #sportsRight {
+  margin-right: 20px;
+  background-color: yellowgreen;
+  position: absolute;
+  top: 80px;
+  bottom: 0;
+  right: 0;
+  overflow-y: scroll;
+}
+/* line 39, ../../app/styles/sports.scss */
+#sports-content #sportsArticle #sportsRight h2 {
+  text-align: center;
+}
+/* line 42, ../../app/styles/sports.scss */
+#sports-content #sportsArticle #sportsRight .sportsRightArticles {
+  margin: 50px 10px;
+  padding: 10px;
+}
+/* line 45, ../../app/styles/sports.scss */
+#sports-content #sportsArticle #sportsRight .sportsRightArticles .sportsRightArticlesImage {
+  width: 100%;
+  height: auto;
+}
+/* line 49, ../../app/styles/sports.scss */
+#sports-content #sportsArticle #sportsRight .sportsRightArticles .sportsRightArticlesImage:hover {
+  cursor: pointer;
+}
+/* line 52, ../../app/styles/sports.scss */
+#sports-content #sportsArticle #sportsRight .sportsRightArticles .sportsRightArticlesDescription {
+  margin-top: 10px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+/* line 56, ../../app/styles/sports.scss */
+#sports-content #sportsArticle #sportsRight .sportsRightArticles .sportsRightArticlesDescription .continueReading {
+  margin-left: 10px;
+}
+/* line 62, ../../app/styles/sports.scss */
+#sports-content #sportsArticle #sportsBackToTop {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #090909;
+  height: 50px;
+  font-size: larger;
+  letter-spacing: 2px;
+  background-color: #ef1313;
+}
+
+@media only screen and (max-width: 384px) {
+  /* Styles */
+  /* line 81, ../../app/styles/sports.scss */
+  #sports-content #sportsLeft {
+    width: 100%;
+    position: static !important;
+  }
+  /* line 85, ../../app/styles/sports.scss */
+  #sports-content #sportsRight {
+    width: 100%;
+    position: static !important;
+  }
+  /* line 89, ../../app/styles/sports.scss */
+  #sports-content #sportsBackToTop {
+    display: block !important;
+  }
+}
+/*# sourceMappingURL=sports.css.map */
